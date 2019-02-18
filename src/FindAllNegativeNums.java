@@ -7,7 +7,7 @@ public class FindAllNegativeNums {
 		int[][] arr = {{3,4,5,-1},{-3,4,3,-1},{-3,-34,5,5}};
 		int[] result = new int[countNegativNums(arr, 0,0, 0)];
 		result = findNegativeNums(arr,0,0,0,result);
-		System.out.println("All negative num from the matrix are: " + Arrays.toString(result));
+		System.out.println("All negative numbers from the matrix are: " + Arrays.toString(result));
 	}
 	static int[] findNegativeNums(int[][] arr,int i,int j, int index ,int[] result){
 		if (i == arr.length) {
